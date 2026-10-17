@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Benjamin Peller | Engineering Portfolio</title>
+    <!-- Tailwind CSS CDN for styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-slate-950 text-slate-100 font-sans antialiased selection:bg-blue-500 selection:text-white">
+
+    <!-- Header / Navigation -->
+    <header class="fixed top-0 left-0 right-0 z-50 bg-slate-900/80 backdrop-blur-md border-b border-slate-800">
+        <div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+            <a href="#hero" class="text-lg font-bold tracking-tight text-blue-400">Benjamin Peller</a>
+            <nav class="hidden md:flex space-x-8 text-sm font-medium text-slate-300">
+                <a href="#projects" class="hover:text-blue-400 transition">Projects</a>
+                <a href="#about" class="hover:text-blue-400 transition">About</a>
+                <a href="#contact" class="hover:text-blue-400 transition">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="pt-32 pb-20 md:pt-44 md:pb-32 px-6 border-b border-slate-900 bg-gradient-to-b from-slate-900 to-slate-950">
+        <div class="max-w-4xl mx-auto text-center">
+            <span class="inline-block py-1 px-3 rounded-full bg-blue-500/10 text-blue-400 text-sm font-medium mb-6 border border-blue-500/20">
+                Mechanical Engineering Portfolio
+            </span>
+            <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight mb-6 text-white">
+                Hi, I'm <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500">Benjamin Peller</span>.
+            </h1>
+            <p class="text-lg md:text-xl text-slate-400 max-w-2xl mx-auto mb-10 leading-relaxed">
+                Mechanical engineering student specializing in CAD design, thermal-fluids systems, mechatronics, and precision hardware manufacturing.
+            </p>
+            <div class="flex justify-center gap-4">
+                <a href="#projects" class="bg-blue-600 hover:bg-blue-500 text-white font-medium px-6 py-3 rounded-lg shadow-lg shadow-blue-500/20 transition">
+                    View Projects
+                </a>
+                <a href="#contact" class="bg-slate-900 hover:bg-slate-800 border border-slate-800 text-slate-300 font-medium px-6 py-3 rounded-lg transition">
+                    Get in Touch
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 px-6 max-w-6xl mx-auto">
+        <div class="mb-16 text-center">
+            <h2 class="text-3xl font-bold tracking-tight mb-4">Featured Engineering Projects</h2>
+            <p class="text-slate-400 max-w-xl mx-auto">A collection of mechanical builds, automotive racing subassemblies, and numerical simulations.</p>
+        </div>
+
+        <div class="space-y-24">
+
+            <!-- Project 1: Gaucho Racing Steering Column -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center bg-slate-900/50 border border-slate-800/80 rounded-2xl p-6 md:p-8">
+                <div>
+                    <span class="text-xs font-semibold uppercase tracking-wider text-blue-400 bg-blue-500/10 px-3 py-1 rounded-full border border-blue-500/20">June 13, 2025</span>
+                    <h3 class="text-2xl font-bold mt-4 mb-3 text-white">Gaucho Racing Steering Column</h3>
+                    <p class="text-slate-300 mb-6 leading-relaxed">
+                        Designed, modeled, and fabricated the complete steering assembly for UC Santa Barbara's formula racing team. This project encompassed CAD modeling, detailed engineering technical drawings, and custom welding jigs.
+                    </p>
+                    <ul class="space-y-2 text-sm text-slate-400 mb-6">
+                        <li><strong class="text-slate-200">Components:</strong> Steering Wheel (ST-A1000), Quick Release (ST-A2000), Steering Column (ST-A3000), Steering Rack (ST-A4000), Tie Rods (ST-A5000).</li>
+                        <li><strong class="text-slate-200">Tools:</strong> SolidWorks, Welding Jigs, Manufacturing Blueprints.</li>
+                    </ul>
+                </div>
+                <div class="grid grid-cols-2 gap-4">
+                    <div class="bg-slate-950 rounded-xl overflow-hidden border border-slate-800 p-2">
+                        <p class="text-xs text-slate-400 mb-2 font-mono text-center">CAD Assembly</p>
+                        <div class="bg-slate-900 h-40 flex items-center justify-center text-slate-600 rounded">
+                            <i class="fa-solid fa-cubes text-3xl"></i>
+                        </div>
+                    </div>
+                    <div class="bg-slate-950 rounded-xl overflow-hidden border border-slate-800 p-2">
+                        <p class="text-xs text-slate-400 mb-2 font-mono text-center">Welding Jig</p>
+                        <div class="bg-slate-900 h-40 flex items-center justify-center text-slate-600 rounded">
+                            <i class="fa-solid fa-wrench text-3xl"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 2: Materials Research Equipment -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center bg-slate-900/50 border border-slate-800/80 rounded-2xl p-6 md:p-8">
+                <div class="order-2 md:order-1 bg-slate-950 rounded-xl overflow-hidden border border-slate-800 p-4 flex items-center justify-center">
+                    <div class="text-center py-12 text-slate-500">
+                        <i class="fa-solid fa-microscope text-5xl mb-3 text-blue-500/50"></i>
+                        <p class="text-sm">Multi-port Chamber & Structural Frame Setup</p>
+                    </div>
+                </div>
+                <div class="order-1 md:order-2">
+                    <span class="text-xs font-semibold uppercase tracking-wider text-blue-400 bg-blue-500/10 px-3 py-1 rounded-full border border-blue-500/20">May 28, 2025</span>
+                    <h3 class="text-2xl font-bold mt-4 mb-3 text-white">Materials Research Equipment</h3>
+                    <p class="text-slate-300 mb-6 leading-relaxed">
+                        Engineered and assembled custom experimental testing hardware for advanced materials research. Designed a multi-ported containment chamber integrated with structured framing, pneumatic lines, and precision gauges.
+                    </p>
+                    <ul class="space-y-2 text-sm text-slate-400">
+                        <li><strong class="text-slate-200">Key Focus:</strong> High-precision plumbing, structural T-slot framing, and vacuum/pressure components.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Project 3: Numerical PDE & Advection Simulation -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center bg-slate-900/50 border border-slate-800/80 rounded-2xl p-6 md:p-8">
+                <div>
+                    <span class="text-xs font-semibold uppercase tracking-wider text-blue-400 bg-blue-500/10 px-3 py-1 rounded-full border border-blue-500/20">Dec 13, 2024 (ME 17)</span>
+                    <h3 class="text-2xl font-bold mt-4 mb-3 text-white">2D Advection & PDE Simulation</h3>
+                    <p class="text-slate-300 mb-6 leading-relaxed">
+                        Developed MATLAB numerical simulations to model the concentration of chemical species across a 2D plane during advection. Implemented upwind-Euler’s method schemes and topological mesh visualizations.
+                    </p>
+                    <ul class="space-y-2 text-sm text-slate-400">
+                        <li><strong class="text-slate-200">Software:</strong> MATLAB</li>
+                        <li><strong class="text-slate-200">Techniques:</strong> Finite difference methods, PDE solvers, dynamic 3D surface plotting.</li>
+                    </ul>
+                </div>
+                <div class="bg-slate-950 rounded-xl overflow-hidden border border-slate-800 p-4 flex items-center justify-center">
+                    <div class="text-center py-12 text-slate-500">
+                        <i class="fa-solid fa-chart-line text-5xl mb-3 text-indigo-500/50"></i>
+                        <p class="text-sm">Topological 3D Mesh Solution at t = 2.00</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 4: Gaucho Racing Liquid Cooling System -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center bg-slate-900/50 border border-slate-800/80 rounded-2xl p-6 md:p-8">
+                <div class="order-2 md:order-1 bg-slate-950 rounded-xl overflow-hidden border border-slate-800 p-4 flex items-center justify-center">
+                    <div class="text-center py-12 text-slate-500">
+                        <i class="fa-solid fa-car-side text-5xl mb-3 text-blue-500/50"></i>
+                        <p class="text-sm">Test Bench & Installed Formula Vehicle</p>
+                    </div>
+                </div>
+                <div class="order-1 md:order-2">
+                    <span class="text-xs font-semibold uppercase tracking-wider text-blue-400 bg-blue-500/10 px-3 py-1 rounded-full border border-blue-500/20">June 9, 2024</span>
+                    <h3 class="text-2xl font-bold mt-4 mb-3 text-white">Gaucho Racing Liquid Cooling System</h3>
+                    <p class="text-slate-300 mb-6 leading-relaxed">
+                        Designed, tested, and integrated a complete liquid cooling system test bench for the Gaucho Racing formula car, ensuring optimal thermal management under high-performance operating conditions.
+                    </p>
+                    <ul class="space-y-2 text-sm text-slate-400">
+                        <li><strong class="text-slate-200">Scope:</strong> CAD layout, radiator/pump integration, fluid routing, and on-car validation.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Project 5: Zombie Apocalypse Monte Carlo Simulation -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center bg-slate-900/50 border border-slate-800/80 rounded-2xl p-6 md:p-8">
+                <div>
+                    <span class="text-xs font-semibold uppercase tracking-wider text-blue-400 bg-blue-500/10 px-3 py-1 rounded-full border border-blue-500/20">June 12, 2024 (ENGR 3)</span>
+                    <h3 class="text-2xl font-bold mt-4 mb-3 text-white">Zombie Epidemic Monte Carlo Simulation</h3>
+                    <p class="text-slate-300 mb-6 leading-relaxed">
+                        Modeled epidemiological spread dynamics (Susceptible-Zombie-Removed) using stochastic differential equations and Monte Carlo trials in MATLAB to calculate survival probabilities.
+                    </p>
+                    <ul class="space-y-2 text-sm text-slate-400">
+                        <li><strong class="text-slate-200">Methods:</strong> Stochastic modeling, ODE solvers (`ode23`), randomized trial iteration loops.</li>
+                    </ul>
+                </div>
+                <div class="bg-slate-950 rounded-xl overflow-hidden border border-slate-800 p-4 flex items-center justify-center">
+                    <div class="text-center py-12 text-slate-500">
+                        <i class="fa-solid fa-code text-5xl mb-3 text-indigo-500/50"></i>
+                        <p class="text-sm">MATLAB Script & Population Curve Plots</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 6: Automatic Light Sensitive Door Locking Device -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center bg-slate-900/50 border border-slate-800/80 rounded-2xl p-6 md:p-8">
+                <div class="order-2 md:order-1 bg-slate-950 rounded-xl overflow-hidden border border-slate-800 p-4 flex items-center justify-center">
+                    <div class="text-center py-12 text-slate-500">
+                        <i class="fa-solid fa-lock text-5xl mb-3 text-blue-500/50"></i>
+                        <p class="text-sm">Mechatronics Hardware Prototype</p>
+                    </div>
+                </div>
+                <div class="order-1 md:order-2">
+                    <span class="text-xs font-semibold uppercase tracking-wider text-blue-400 bg-blue-500/10 px-3 py-1 rounded-full border border-blue-500/20">June 3, 2024 (ME 10)</span>
+                    <h3 class="text-2xl font-bold mt-4 mb-3 text-white">Light-Sensitive Door Locking Device</h3>
+                    <p class="text-slate-300 mb-6 leading-relaxed">
+                        Designed and built an automated mechatronic locking mechanism triggered by optical sensors, integrating mechanical linkages with basic electronic controls.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Project 7: Machined Pneumatic Motor -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center bg-slate-900/50 border border-slate-800/80 rounded-2xl p-6 md:p-8">
+                <div>
+                    <span class="text-xs font-semibold uppercase tracking-wider text-blue-400 bg-blue-500/10 px-3 py-1 rounded-full border border-blue-500/20">December 7, 2023 (ME 12S)</span>
+                    <h3 class="text-2xl font-bold mt-4 mb-3 text-white">Machined Pneumatic Motor</h3>
+                    <p class="text-slate-300 mb-6 leading-relaxed">
+                        Precision-machined a working pneumatic motor from raw stock materials (aluminum, brass, and polymers), demonstrating hands-on machine shop capability, tight tolerances, and mechanical assembly.
+                    </p>
+                    <ul class="space-y-2 text-sm text-slate-400">
+                        <li><strong class="text-slate-200">Processes:</strong> Manual machining, milling, turning, pneumatic fitting.</li>
+                    </ul>
+                </div>
+                <div class="bg-slate-950 rounded-xl overflow-hidden border border-slate-800 p-4 flex items-center justify-center">
+                    <div class="text-center py-12 text-slate-500">
+                        <i class="fa-solid fa-gears text-5xl mb-3 text-indigo-500/50"></i>
+                        <p class="text-sm">Machined Assembly Hardware</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 border-t border-slate-900 bg-slate-900/30 px-6">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-6">About Me</h2>
+            <p class="text-slate-300 leading-relaxed text-lg mb-8">
+                I am Benjamin Peller, an engineering student at UC Santa Barbara actively involved in high-impact projects ranging from Formula SAE racing subassemblies to computational fluid dynamics, MATLAB modeling, and precise machine shop fabrication.
+            </p>
+            <div class="flex flex-wrap justify-center gap-3">
+                <span class="bg-slate-900 border border-slate-800 px-4 py-2 rounded-lg text-sm text-slate-300">SolidWorks CAD</span>
+                <span class="bg-slate-900 border border-slate-800 px-4 py-2 rounded-lg text-sm text-slate-300">MATLAB / Simulation</span>
+                <span class="bg-slate-900 border border-slate-800 px-4 py-2 rounded-lg text-sm text-slate-300">Machine Shop & Fabrication</span>
+                <span class="bg-slate-900 border border-slate-800 px-4 py-2 rounded-lg text-sm text-slate-300">Formula SAE (Gaucho Racing)</span>
+                <span class="bg-slate-900 border border-slate-800 px-4 py-2 rounded-lg text-sm text-slate-300">Thermal Systems</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 px-6 max-w-4xl mx-auto text-center">
+        <h2 class="text-3xl font-bold mb-4">Get In Touch</h2>
+        <p class="text-slate-400 mb-8">Interested in collaborating or discussing engineering opportunities? Feel free to reach out.</p>
+        <a href="mailto:benjamin@example.com" class="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-500 text-white font-medium px-8 py-3 rounded-lg shadow-lg shadow-blue-500/20 transition">
+            <i class="fa-solid fa-envelope"></i> Send an Email
+        </a>
+    </section>
+
+    <!-- Footer -->
+    <footer class="border-t border-slate-900 py-8 px-6 text-center text-sm text-slate-500">
+        <p>&copy; 2026 Benjamin Peller. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
